@@ -1,7 +1,7 @@
 fetch("./data.json")
 .then((str)=>( str.json() ))
 .then((data)=>{
-    console.log(data.items)
+    // console.log(data.items)
 
 
 
