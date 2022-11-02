@@ -6,7 +6,7 @@ fetch("./data.json")
 
 
     // show All img 
-    let A;
+    let A='';
     data.items.forEach( (v,k) => {
     
         A +=`<div class="thumb">
