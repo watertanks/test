@@ -40,9 +40,12 @@ fetch("./data.json")
     })
 
     //if push 'esc'key, hide popup
-    $(document).keyup('27',function(){
-        $('.poptrox-overlay').hide()
+    $(document).keyup(function(event){
+        if(event.which === 27) {
+            $('.poptrox-overlay').hide()
+        }
     })
+        
 
 
 
